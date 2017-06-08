@@ -25,8 +25,6 @@ html,body,section{
 input[type="button"], button{
   border-radius: 50%;
   border-style: none;
-  width: 19%;
-  height: 21%;
   margin: 2%;
   color: white;
   font-weight: 800;
@@ -51,7 +49,7 @@ hr{
 }
 .flex-content{
   vertical-align: middle;
-  width: 280px;
+  
 }
 .head{
   height: 80px;
@@ -59,10 +57,10 @@ hr{
   border-top-right-radius: 44px;
 }
 .content{
-  height: 200px;
   padding: 9% 7% 40% 7%;
   border-bottom-left-radius: 44px;
   border-bottom-right-radius: 44px;
+  overflow: hidden;
 }
 .screen-case{
   height: 42px;
